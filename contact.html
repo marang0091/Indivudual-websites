@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+    <head>
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+  background-image: url("image/mininalist.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.topnav {
+    background-color: rgb(144, 144, 153);
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: rgb(1, 31, 61);
+    text-align: left;
+    padding: 25px 20px;
+    text-decoration:underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.topnav a:hover {
+    background-color: #10033d;
+    color: rgb(240, 211, 211);
+}
+.topnav a.active {
+    background-color: #10033d;
+    color: rgb(240, 211,211);
+}
+.contact-form {
+	width: 100%;	
+	height: auto;
+	padding: 30px;
+	flex: 50%;
+	text-align: center;
+}
+.contact-form h3 {
+	margin-bottom: 10px;
+}
+.contact-form-txt {
+	width: 100%;	
+	height: 40px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 50px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.contact-form-txt::placeholder {
+	color: #aaa;
+}
+.contact-form-textarea {
+	width: 100%;	
+	height: 130px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 10px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form-textarea::placeholder {
+	color: rgb(24, 6, 6);
+}
+.contact-form-btn {
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 50px;
+	background: #010b44;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 0;
+	cursor: pointer;
+	font-size: 18px;
+}
+    </style>
+
+
+    <div class="topnav">
+		<a href="index.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="education.html">Education</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="hobby.html">Hobby</a>
+        <a class="active" href="contact.html">Contact</a>
+	  </div>
+      <br>
+      <div button align="center">
+    <button onclick="document.location ='https://www.instagram.com/_shahrulhafiz/'">Instagram</button>
+    <button onclick="document.location ='mailto:2020854554@student.uitm.edu.my.'">E-mail</button>
+    <button onclick="document.location ='https://www.facebook.com/shah.caoi/'">Facebook</button>
+    <button onclick="document.location ='https://twitter.com/ShahCaoi'">Twitter</button>
+
+    <button onclick="document.location ='tel:+60135934511'">MWhatsApp</button>
+      </div>
+    <br>
+    
+    
+        
+        <div class="contact-form">
+            <h3>Contact Me</h3>
+            <form>
+                <input type="text" placeholder="Name" class="contact-form-txt">
+                <input type="text" placeholder="Email" class="contact-form-txt">
+                <textarea placeholder="Message" class="contact-form-textarea"></textarea>	
+                <input type="submit" name="Submit" class="contact-form-btn">
+    
+      
+     
+
+    
+    </body>
+</html>
